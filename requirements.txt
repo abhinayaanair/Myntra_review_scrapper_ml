@@ -1,6 +1,6 @@
-bs4==0.0.1
-chromedriver-binary==121.0.6115.2.0
-database-connect==0.1.66
+beautifulsoup4==4.12.2
+chromedriver-binary  # Remove version specifier unless required
+database-connect==0.1.66  # Verify this package
 flask-cors==4.0.0
 gunicorn==21.2.0
 ipykernel==6.26.0
@@ -8,6 +8,7 @@ plotly==5.18.0
 pysocks==1.7.1
 python-dotenv==1.0.1
 selenium==4.15.2
-streamlit==1.28.0
-tiktoken==0.3.0 
+streamlit==1.26.0  # Updated to the latest version
+tiktoken==0.4.0  # Updated for better Rust compatibility
+
 -e .
